@@ -1,30 +1,12 @@
 # mall
 
-<p>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
-  <a href="https://github.com/macrozheng/mall-learning"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B-mall--learning-green.svg" alt="学习教程"></a>
-  <a href="https://github.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/Cloud%E7%89%88%E6%9C%AC-mall--swarm-brightgreen.svg" alt="SpringCloud版本"></a>
-  <a href="https://github.com/macrozheng/mall-admin-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-mall--admin--web-green.svg" alt="后台管理系统"></a>
-  <a href="https://github.com/macrozheng/mall-app-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E5%8F%B0%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE-mall--app--web-green.svg" alt="前台商城项目"></a>
-  <a href="https://gitee.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
-</p>
-
 ## 友情提示
 
-> 1. **快速体验项目**：[在线访问地址](https://www.macrozheng.com/admin/index.html) 。
-> 2. **全套学习教程**：[《mall学习教程》](https://www.macrozheng.com) 。
-> 3. **视频教程（最新版）**：[《mall视频教程》](https://www.macrozheng.com/mall/foreword/mall_video.html) 。
-> 4. **微服务版本**：基于Spring Cloud Alibaba的项目：[mall-swarm](https://github.com/macrozheng/mall-swarm) 。
-> 5. **分支说明**：`master`分支基于Spring Boot 2.7+JDK 8，`dev-v3`分支基于Spring Boot 3.2+JDK 17。
+> **分支说明**：`master`分支基于Spring Boot 2.7+JDK 8，`dev-v3`分支基于Spring Boot 3.2+JDK 17。
 
 ## 前言
 
 `mall`项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
-
-## 项目文档
-
-文档地址：[https://www.macrozheng.com](https://www.macrozheng.com)
 
 ## 项目介绍
 
@@ -34,17 +16,9 @@
 
 #### 后台管理系统
 
-前端项目`mall-admin-web`地址：https://github.com/macrozheng/mall-admin-web
-
-项目演示地址： [https://www.macrozheng.com/admin/index.html](https://www.macrozheng.com/admin/index.html)  
-
 ![后台管理系统功能演示](./document/resource/mall_admin_show.png)
 
 #### 前台商城系统
-
-前端项目`mall-app-web`地址：https://github.com/macrozheng/mall-app-web
-
-项目演示地址（将浏览器切换为手机模式效果更佳）：[https://www.macrozheng.com/app/](https://www.macrozheng.com/app/)
 
 ![前台商城系统功能演示](./document/resource/re_mall_app_show.jpg)
 
@@ -181,27 +155,9 @@ mall
 
 > Windows环境部署
 
-- Windows环境搭建请参考：[mall项目后端开发环境搭建](https://www.macrozheng.com/mall/start/mall_deploy_windows.html);
 - 注意：如果只启动`mall-admin`模块，仅需安装MySQL、Redis即可;
-- 克隆`mall-admin-web`项目，并导入到IDEA中完成编译：[前端项目地址](https://github.com/macrozheng/mall-admin-web);
-- `mall-admin-web`项目的安装及部署请参考：[mall项目前端发环境搭建](https://www.macrozheng.com/mall/start/mall_deploy_web.html) 。
 
-> Docker环境部署
-
-- 使用虚拟机安装CentOS7.6请参考：[虚拟机安装及使用Linux，看这一篇就够了](https://www.macrozheng.com/mall/deploy/linux_install.html);
-- 本项目Docker镜像构建请参考：[使用Maven插件为SpringBoot应用构建Docker镜像](https://www.macrozheng.com/project/maven_docker_fabric8.html);
-- 本项目在Docker容器下的部署请参考：[mall在Linux环境下的部署（基于Docker容器）](https://www.macrozheng.com/mall/deploy/mall_deploy_docker.html);
-- 本项目使用Docker Compose请参考： [mall在Linux环境下的部署（基于Docker Compose）](https://www.macrozheng.com/mall/deploy/mall_deploy_docker_compose.html);
-- 本项目在Linux下的自动化部署请参考：[mall在Linux环境下的自动化部署（基于Jenkins）](https://www.macrozheng.com/mall/deploy/mall_deploy_jenkins.html);
-
-## 公众号
-
-加微信群交流，关注公众号「**macrozheng**」，回复「**加群**」即可。
-
-![公众号图片](./document/resource/qrcode_for_macrozheng_258.jpg)
 
 ## 许可证
 
-[Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
-
-Copyright (c) 2018-2025 macrozheng
+[Apache License 2.0](./LICENSE)
